@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Really Sorry 💔</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="background-music" loop preload="auto">
+        <source src="Song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Controls -->
+    <div class="music-controls">
+        <button id="music-toggle" class="music-btn" aria-label="Toggle Music">
+            <span class="music-icon">🎵</span>
+            <span class="music-text">Music ON</span>
+        </button>
+    </div>
+
+    <div class="floating-hearts"></div>
+    <div class="particle-container"></div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">
+                <span class="typewriter" data-text="I'm Really Sorry..."></span>
+            </h1>
+            <p class="hero-subtitle fade-in">Please let me make it right 💕</p>
+            <div class="click-to-start" id="click-to-start">
+                <p>🎵 Click anywhere to start with music 🎵</p>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- First Meme Section -->
+    <section class="meme-section">
+        <div class="container">
+            <div class="card meme-card fade-in-up">
+                <div class="card__body">
+                    <div class="meme-placeholder">
+                        <div class="meme-emoji">😿</div>
+                        <p class="meme-title">Sorry Cat Meme</p>
+                    </div>
+                    <p class="meme-caption">Okay, I admit it... this is me! 🐱</p>
+                    <p class="meme-text">"Sorry for acting like that... it will happen again" 😅</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Reasons Section -->
+    <section class="reasons-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">What am I apologizing for?</h2>
+            <p class="section-subtitle fade-in-up">Click to reveal the truth...</p>
+            <div class="reasons-grid">
+                <button class="reason-btn" data-reason="For being stubborn">
+                    🤔 Click for Reason #1
+                </button>
+                <button class="reason-btn" data-reason="For forgetting something important">
+                    🤦‍♂️ Click for Reason #2
+                </button>
+                <button class="reason-btn" data-reason="For saying something wrong">
+                    😔 Click for Reason #3
+                </button>
+                <button class="reason-btn" data-reason="For being late">
+                    ⏰ Click for Reason #4
+                </button>
+                <button class="reason-btn" data-reason="For being grumpy">
+                    😤 Click for Reason #5
+                </button>
+                <button class="reason-btn" data-reason="For not listening">
+                    🙉 Click for Reason #6
+                </button>
+            </div>
+            <div class="revealed-reason" id="revealed-reason"></div>
+        </div>
+    </section>
+
+    <!-- Second Meme Section -->
+    <section class="meme-section">
+        <div class="container">
+            <div class="card meme-card fade-in-up">
+                <div class="card__body">
+                    <div class="meme-placeholder">
+                        <div class="meme-emoji">🐶</div>
+                        <p class="meme-title">Sorry Puppy Meme</p>
+                    </div>
+                    <p class="meme-caption">This is literally me right now... 🐶</p>
+                    <p class="meme-text">*Puppy dog eyes activated*</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secret Messages Section -->
+    <section class="secrets-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Secret Messages for You</h2>
+            <div class="secrets-grid">
+                <div class="secret-card" data-secret="You mean the world to me and I never want to hurt you 💖">
+                    <div class="secret-front">
+                        <p>💝 Click for Secret #1</p>
+                    </div>
+                </div>
+                <div class="secret-card" data-secret="I promise to do better and learn from this mistake 🌟">
+                    <div class="secret-front">
+                        <p>✨ Click for Secret #2</p>
+                    </div>
+                </div>
+                <div class="secret-card" data-secret="You deserve all the happiness in the world 🌈">
+                    <div class="secret-front">
+                        <p>🎈 Click for Secret #3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flower Meme Section -->
+    <section class="meme-section">
+        <div class="container">
+            <div class="card meme-card fade-in-up">
+                <div class="card__body">
+                    <div class="meme-placeholder">
+                        <div class="meme-emoji">🌸</div>
+                        <p class="meme-title">Flowers for You</p>
+                    </div>
+                    <p class="meme-caption">I brought you flowers... virtually! 🌸</p>
+                    <p class="meme-text">Consider these the most beautiful digital flowers ever 💐</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promises Section -->
+    <section class="promises-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">My Promises to You</h2>
+            <div class="promises-grid">
+                <div class="promise-card fade-in-up">
+                    <div class="promise-icon">🌟</div>
+                    <p>I will try to be better</p>
+                </div>
+                <div class="promise-card fade-in-up">
+                    <div class="promise-icon">👂</div>
+                    <p>I will listen more carefully</p>
+                </div>
+                <div class="promise-card fade-in-up">
+                    <div class="promise-icon">💭</div>
+                    <p>I will think before I speak</p>
+                </div>
+                <div class="promise-card fade-in-up">
+                    <div class="promise-icon">🤗</div>
+                    <p>I will be more understanding</p>
+                </div>
+                <div class="promise-card fade-in-up">
+                    <div class="promise-icon">💕</div>
+                    <p>I will make it up to you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Forgiveness Section -->
+    <section class="forgiveness-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Please Forgive Me? 🥺</h2>
+            <div class="forgiveness-buttons">
+                <button class="forgive-btn yes-btn" onclick="createParticles('yes')">
+                    💖 Yes, I Forgive You
+                </button>
+                <button class="forgive-btn maybe-btn" onclick="createParticles('maybe')">
+                    🤔 I'll Think About It
+                </button>
+            </div>
+            <div class="final-message" id="final-message"></div>
+        </div>
+    </section>
+
+    <!-- Music Attribution -->
+    <div class="music-attribution">
+        <p>Background Music: "Sad Cinematic Piano" by AShamaluevMusic - <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
